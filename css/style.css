@@ -1,0 +1,267 @@
+body {
+  font-family: "Barlow", sans-serif !important;
+}
+.bodycontent {
+  background-image: url("../images/bg.jpg"); /* Replace 'your-image-url.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: relative; /* Fixed background position, so it doesn't scroll with the content */
+  /* Adjust the opacity as needed to create a faded effect */
+  background-position: center 200px;
+}
+
+.fw-bold {
+  font-family: "Barlow", sans-serif !important;
+}
+
+.text-larger input {
+  font-size: 120% !important;
+}
+
+.b-example-divider {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25) !important;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.topbartext {
+  color: #ffffff !important;
+}
+.searchbg {
+  background-color: rgb(197, 197, 197) !important;
+  font-size: 120% !important;
+}
+.text-small {
+  font-size: 70% !important;
+}
+
+.categories {
+  border: 2px solid black !important;
+  width: 250px;
+  margin-top: 10px;
+  padding: 10px 50px;
+  font-size: 140%;
+  background-color: #ffffff;
+}
+
+.categoriesadmin {
+  border: 2px solid black !important;
+  margin: 5px;
+  padding: 5px;
+  font-size: 110%;
+  width: 150px;
+  background-color: #ffffff;
+}
+
+.categories:hover,
+.categoriesadmin:hover,
+.categoriesadmin:active,
+.categories:active {
+  background-color: #000000;
+  color: #ffffff !important;
+}
+.thumbnail {
+  border: 2px solid #000000;
+}
+
+.thumbnail p {
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  font-weight: 700 !important;
+}
+.thumbnail img {
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.thumbnail table {
+  font-size: 90% !important;
+}
+
+.thumbnail table tr td {
+  padding: 5px 10px;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+  background-color: #a8a8a8;
+  color: #ffffff !important;
+}
+
+tr:nth-child(odd) {
+  background-color: #666666;
+  color: #ffffff !important;
+}
+
+.categorytable table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 5px 20px;
+}
+.categorytable th {
+  background-color: #000000;
+  color: #ffffff !important;
+  padding: 10px 20px;
+}
+
+.categorytable tr:nth-child(even) {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
+
+.categorytable tr:nth-child(odd) {
+  background-color: #f4f4f4;
+  color: #000000 !important;
+}
+
+.categorytable td {
+  padding: 10px 20px;
+}
+
+.contentdiv {
+  margin-top: 100px !important;
+}
+
+.projectcover {
+  position: relative;
+}
+
+.covertable .covertablemain {
+  width: 80% !important;
+  table-layout: fixed;
+}
+.covertable .covertablemain td {
+  width: 33.33% !important;
+}
+.projectcover img {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.thumbnail-list img {
+  height: 70px;
+  cursor: pointer;
+  object-fit: cover;
+  width: 100% !important;
+  border: 0 !important;
+}
+
+.thumbnail-list li {
+  list-style: none;
+  width: 100%;
+}
+
+.details p .chat {
+  background-color: rgb(69, 201, 67);
+  color: #ffffff;
+}
+
+.detailcontent {
+  width: 100%;
+  text-align: left !important;
+  border-radius: 0 !important;
+  border-style: ridge !important;
+  font-weight: 700 !important;
+  padding: 5px 10px;
+  margin-right: 2px !important;
+  font-family: "Barlow", sans-serif;
+  font-size: 110%;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.blogtext {
+  font-size: 120% !important;
+  text-justify: justify;
+}
+.blogbody img {
+  max-width: 1000px;
+}
+
+.sidenav {
+  padding-top: 100px;
+  background-color: #e7e7e7;
+  height: 70dvh;
+}
+
+.sidenav .nav-item {
+  list-style: none;
+  margin-bottom: 10px;
+  background-color: #c7c7c7;
+}
+.sidenav .nav-item a {
+  padding: 5px;
+}
+
+.selectedsidenav {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .contactbar {
+    display: none;
+  }
+  .covertable .covertablemain {
+    width: 100% !important;
+    table-layout: fixed;
+    margin: 0;
+    margin: auto;
+  }
+
+  .covertable .covertablemain td {
+    width: 33.33% !important;
+  }
+
+  table {
+    overflow-x: auto;
+    display: block;
+    border-collapse: collapse;
+  }
+  table tr td {
+    width: 100%;
+  }
+
+  .projectcover table {
+    position: relative;
+  }
+  .contentdiv {
+    margin-top: 100px !important;
+  }
+
+  .projectcover img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .thumbnail-list img {
+    height: 70px;
+    cursor: pointer;
+    object-fit: cover;
+    width: 100% !important;
+    border: 0 !important;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 10px !important;
+    margin-top: 100px;
+  }
+}
